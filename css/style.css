@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e4f0f0;
+}
+
+.container {
+    width: 62.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 3.125rem;
+    text-align: center;
+    color: #000;
+}
+
+.button-search {
+    display: flex;
+    justify-content: center;
+    margin: 1.875rem 0;
+}
+
+button {
+    padding: .625rem;
+    border: none;
+    border-radius: .625rem;
+    font-size: .875rem;
+    font-weight: bold; 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+#list-emails {
+
+    margin: 2.5rem auto;
+}
+
+
+#list-emails li {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: .625rem;
+}
+
+img {
+    width: 3.125rem;
+    margin: 1.875rem 0;
+}
