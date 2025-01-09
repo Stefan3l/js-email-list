@@ -51,6 +51,7 @@ button:hover {
     font-size: 1.125rem;
     font-weight: bold;
     margin-bottom: .625rem;
+    list-style: none;
 }
 
 img {

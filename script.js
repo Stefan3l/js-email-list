@@ -9,7 +9,7 @@ const emailsGenerate = function() {
     axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
         .then(function (emails) {
             
-            listEmailsElm.innerHTML += `<li>${emails.data.response}</li>`
+            listEmailsElm.innerHTML += `<li>${i} - ${emails.data.response}</li>`
             
         })
         .catch(function () {
